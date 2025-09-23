@@ -1,0 +1,140 @@
+/* 🎨 Style global */
+body {
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(135deg, #f5f5f5, #eaeaea);
+  color: #333;
+}
+
+/* 🎯 Titre */
+h1 {
+  text-align: center;
+  color: #ff6600;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+/* 📦 Conteneur cartes */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* 🃏 Carte */
+.card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.12);
+}
+
+/* 🖼️ Image */
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 3px solid #ff6600;
+}
+
+/* 📋 Contenu carte */
+.card-content {
+  padding: 15px;
+}
+
+.card-content h3 {
+  margin: 5px 0 10px;
+  color: #222;
+  font-size: 1.2rem;
+}
+
+.card-content p {
+  color: #555;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* 💲 Plans */
+.plans {
+  margin-top: 12px;
+}
+
+.plan {
+  background: #ff6600;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+  margin: 5px 5px 0 0;
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+/* 🔘 Bouton souscription */
+.subscribe-btn {
+  margin-top: 15px;
+  background: #28a745;
+  color: white;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: bold;
+  width: 100%;
+  transition: background 0.3s ease;
+}
+
+.subscribe-btn:hover {
+  background: #218838;
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  body {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .card img {
+    height: 160px;
+  }
+
+  .card-content h3 {
+    font-size: 1rem;
+  }
+
+  .card-content p {
+    font-size: 0.85rem;
+  }
+
+  .subscribe-btn {
+    font-size: 0.9rem;
+    padding: 9px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cards {
+    grid-template-columns: 1fr; /* 1 carte par ligne */
+  }
+
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  .card img {
+    height: 140px;
+  }
+}
