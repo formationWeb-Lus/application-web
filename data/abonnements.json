@@ -1,66 +1,66 @@
 [
   {
     "Id": "GPS001",
-    "Brand": "camion poids lourd",
-    "Description": "👉 Suivi GPS en temps réel spécialement conçu pour vos camions poids lourds. Protégez vos marchandises, optimisez vos trajets longue distance et garantissez la sécurité de votre flotte.",
-    "PlanMensuel": "5$ / mois",
-    "PlanAnnuel": "100$ / véhicule / an",
+    "Brand": "Heavy Trucks",
+    "Description": "👉 Real-time GPS tracking specially designed for your heavy trucks. Protect your goods, optimize long-distance routes, and ensure the safety of your fleet.",
+    "MonthlyPlan": "$5 / month",
+    "YearlyPlan": "$100 / vehicle / year",
     "Image": "images/vehicules/camion2.jpg"
   },
   {
     "Id": "GPS002",
-    "Brand": "bus et vehicules scolaires",
-    "Description": "Recevez des alertes instantanées en cas de mouvement suspect ou de sortie de zone définie. Grâce à ce suivi en temps réel, vous savez toujours où se trouve votre bus scolaire, garantissant la sécurité des enfants et la tranquillité d’esprit des parents.",
-    "PlanMensuel": "5$ / mois",
-    "PlanAnnuel": "100$ / véhicule / an",
+    "Brand": "School Buses and Vehicles",
+    "Description": "Receive instant alerts in case of suspicious movement or exit from a defined zone. With real-time tracking, you always know where your school bus is, ensuring children’s safety and parents’ peace of mind.",
+    "MonthlyPlan": "$5 / month",
+    "YearlyPlan": "$100 / vehicle / year",
     "Image": "images/vehicules/schoolbus.jpg"
   },
   {
     "Id": "GPS003",
     "Brand": "RDCGPS",
-    "Description": "Consultez l’historique complet des trajets et arrêts pour chaque véhicule.",
-    "PlanMensuel": "5$ / mois",
-    "PlanAnnuel": "100$ / véhicule / an",
+    "Description": "View the complete history of trips and stops for each vehicle.",
+    "MonthlyPlan": "$5 / month",
+    "YearlyPlan": "$100 / vehicle / year",
     "Image": "images/vehicules/camion2.jpg"
   },
   {
     "Id": "GPS004",
-    "Brand": "transport d'entreprise",
-    "Description": "Assurez la sécurité de vos bus d’entreprise et des travailleurs qu’ils transportent grâce à notre suivi GPS en temps réel. Avec des alertes instantanées et une gestion optimisée des trajets, vous protégez vos investissements et gagnez en efficacité. Profitez d’une offre abordable et, en signant un contrat, accédez à des services premium fiables pour une tranquillité totale.",
-    "PlanMensuel": "5$ / mois",
-    "PlanAnnuel": "100$ / véhicule / an",
+    "Brand": "Company Transportation",
+    "Description": "Ensure the safety of your company buses and the employees they transport with real-time GPS tracking. With instant alerts and optimized trip management, you protect your investments and gain efficiency. Enjoy an affordable offer and, by signing a contract, access reliable premium services for total peace of mind.",
+    "MonthlyPlan": "$5 / month",
+    "YearlyPlan": "$100 / vehicle / year",
     "Image": "images/vehicules/gps-rdc1.jpg"
   },
   {
     "Id": "GPS005",
-    "Brand": "transport de taxi",
-    "Description": "En tant que propriétaire de taxis, vous méritez de savoir exactement comment vos véhicules sont utilisés. Grâce à notre suivi GPS en temps réel, vous recevez toutes les informations essentielles : positions précises, nombre d’arrêts, kilomètres parcourus, ainsi que les heures d’activité quotidienne de vos taxis. Avec ces données fiables, vous gardez le contrôle total de votre flotte et optimisez vos revenus en toute sérénité.",
-    "PlanMensuel": "5$ / mois",
-    "PlanAnnuel": "100$ / véhicule / an",
+    "Brand": "Taxi Transport",
+    "Description": "As a taxi owner, you deserve to know exactly how your vehicles are being used. With our real-time GPS tracking, you receive all essential information: precise locations, number of stops, kilometers traveled, and daily operating hours. With this reliable data, you maintain full control of your fleet and optimize your revenue with confidence.",
+    "MonthlyPlan": "$5 / month",
+    "YearlyPlan": "$100 / vehicle / year",
     "Image": "images/vehicules/taxi1.jpg"
   },
   {
     "Id": "GPS006",
-    "Brand": "hiace de transport",
-    "Description": "Vous mettez votre voiture en location journalière ? Avec notre service de suivi GPS, vous gardez le contrôle total, même quand le véhicule est entre les mains du locataire. Suivez la position en temps réel, consultez le nombre de kilomètres parcourus, les arrêts effectués, et les horaires d’utilisation. En un seul clic, vous savez exactement où se trouve votre voiture et comment elle est utilisée. Louez vos véhicules en toute confiance et optimisez vos revenus en toute sécurité.",
-    "PlanMensuel": "5$ / mois",
-    "PlanAnnuel": "100$ / véhicule / an",
+    "Brand": "Rental Vehicles (Hiace)",
+    "Description": "Do you rent your car daily? With our GPS tracking service, you keep full control even when the vehicle is in the renter’s hands. Track the real-time location, check the number of kilometers traveled, stops made, and usage times. With one click, you know exactly where your car is and how it’s being used. Rent your vehicles with confidence and maximize your income safely.",
+    "MonthlyPlan": "$5 / month",
+    "YearlyPlan": "$100 / vehicle / year",
     "Image": "images/vehicules/hiace1.png"
   },
   {
     "Id": "GPS007",
-    "Brand": "vehicules personnel",
-    "Description": "Protection renforcée contre le vol grâce au suivi permanent et aux alertes instantanées.",
-    "PlanMensuel": "5$ / mois",
-    "PlanAnnuel": "100$ / véhicule / an",
+    "Brand": "Personal Vehicles",
+    "Description": "Enhanced protection against theft with continuous tracking and instant alerts.",
+    "MonthlyPlan": "$5 / month",
+    "YearlyPlan": "$100 / vehicle / year",
     "Image": "images/vehicules/vehicul-personl.jpg"
   },
   {
     "Id": "GPS008",
     "Brand": "RDCGPS",
-    "Description": "Solution économique et efficace pour gérer votre flotte de véhicules.",
-    "PlanMensuel": "5$ / mois",
-    "PlanAnnuel": "100$ / véhicule / an",
+    "Description": "A cost-effective and efficient solution to manage your vehicle fleet.",
+    "MonthlyPlan": "$5 / month",
+    "YearlyPlan": "$100 / vehicle / year",
     "Image": "images/vehicules/personnel.jpg"
   }
 ]
