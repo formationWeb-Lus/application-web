@@ -1,45 +1,41 @@
-import { getAbonnements } from "./data.mjs";
+import { getSubscriptions } from "./data.mjs";
 
 const container = document.getElementById("cardsContainer");
 
-async function afficherCartes() {
+async function displayCards() {
   try {
-    const data = await getAbonnements();
+    const data = await getSubscriptions();
 
     data.forEach(item => {
       const card = document.createElement("div");
       card.className = "card";
 
-      // Image et contenu
       card.innerHTML = `
         <img src="${item.Image}" alt="${item.Brand}">
         <div class="card-content">
           <h3>${item.Id} - ${item.Brand}</h3>
           <p>${item.Description}</p>
           <div class="plans">
-            <span class="plan">${item.PlanMensuel}</span>
-            <span class="plan">${item.PlanAnnuel}</span>
+            <span class="plan">${item.MonthlyPlan}</span>
+            <span class="plan">${item.YearlyPlan}</span>
           </div>
         </div>
       `;
 
-      // Création du bouton
       const button = document.createElement("button");
       button.className = "subscribe-btn";
-      button.textContent = "Commencer";
+      button.textContent = "Start Now";
       button.addEventListener("click", () => {
         window.location.href = "https://web-dashboard-xc88.onrender.com";
       });
 
-      // Ajout du bouton dans le card-content
       card.querySelector(".card-content").appendChild(button);
-
       container.appendChild(card);
     });
 
   } catch (error) {
-    console.error("Erreur :", error);
+    console.error("Error:", error);
   }
 }
 
-afficherCartes();
+displayCards();
