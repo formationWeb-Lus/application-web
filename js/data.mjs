@@ -1,7 +1,7 @@
-export async function getAbonnements() {
-  const response = await fetch("data/abonnements.json"); // simple et sûr
+export async function getSubscriptions() {
+  const response = await fetch("data/subscriptions.json"); // safer and clearer
   if (!response.ok) {
-    throw new Error("Impossible de charger le JSON");
+    throw new Error("Unable to load JSON file");
   }
   return await response.json();
 }
